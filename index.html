@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- ============= title here ============== -->
+        <title>Shoes Website</title>
+        <!-- ============= style.css here ============== -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- favicon link here -->
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <!-- ============= font awesome link here ============== -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- aos animation link -->
+        <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    </head>
+    <body>
+        <!-- ============= header here ============== -->
+        <header>
+            <div class="container">
+                <div class="logo"><a href="#home">SHOES</a></div>
+                <ul class="navlist">
+                    <h3>Menu Links</h3>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" id="close-menu"></i>
+                </ul>
+                <div class="menu-bar fa-solid fa-bars" id="menubar"></div>
+                <div class="nav-icon">
+                    <i
+                        class="fa-solid fa-magnifying-glass"
+                        id="search-icon"
+                    ></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="search-section">
+                    <input
+                        type="text"
+                        id="search-box"
+                        placeholder="Search here..."
+                    />
+                    <label for="search-box"
+                        ><i class="fa-solid fa-magnifying-glass"></i
+                    ></label>
+                </div>
+            </div>
+        </header>
+
+        <!-- ============= home here ============== -->
+        <section class="home" id="home">
+            <div class="home-container">
+                <div class="home-text" data-aos="fade-right">
+                    <span>New Winter</span>
+                    <h1>shoes collection</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Temporibus aliquam sed quaerat vero suscipit fugit
+                        impedit aut ducimus incidunt maxime sapiente dolorem
+                        perferendis enim facilis quisquam ipsa, doloribus non
+                        eaque!
+                    </p>
+                    <button>
+                        Shop Now <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="home-img" data-aos="fade-left">
+                    <img src="images/header.png" alt="Home Image" />
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= choose product here ============== -->
+        <section class="choose-product" id="choose-product">
+            <h2>Choose Our <span>Products</span></h2>
+            <div class="choose-product-images" data-aos="fade-up">
+                <a href="#first-cp"
+                    ><img src="images/cp-1.png" alt="choose image"
+                /></a>
+                <a href="#second-cp"
+                    ><img src="images/cp-2.png" alt="choose image"
+                /></a>
+                <a href="#third-cp"
+                    ><img src="images/cp-3.png" alt="choose image"
+                /></a>
+                <a href="#fourth-cp"
+                    ><img src="images/cp-4.png" alt="choose image"
+                /></a>
+                <a href="#fifth-cp"
+                    ><img src="images/cp-5.png" alt="choose image"
+                /></a>
+                <a href="#six-cp"
+                    ><img src="images/cp-6.png" alt="choose image"
+                /></a>
+                <a href="#seven-cp"
+                    ><img src="images/cp-7.png" alt="choose image"
+                /></a>
+                <a href="#eight-cp"
+                    ><img src="images/cp-8.png" alt="choose image"
+                /></a>
+            </div>
+        </section>
+
+        <!-- ============= latest product here ============== -->
+        <section class="latest-products" id="product">
+            <span class="top-span">What would you order</span>
+            <h2>Latest <span>Products</span></h2>
+            <div class="latest-products-container">
+                <div class="latest-product" id="first-cp" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp1-product-1.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 2 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp1-product-2.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 3 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp1-product-3.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 4 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp1-product-4.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 5 -->
+                <div class="latest-product" id="second-cp" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp2-product-1.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 6 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp2-product-2.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 7 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img
+                            src="images/purepng.com-running-shocp2-product-3.png"
+                            alt="cart image"
+                        />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 8 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp2-product-4.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 9 -->
+                <div class="latest-product" id="third-cp" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp3-product-1.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 10 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp3-product-2.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 11 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp3-product-3.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 12 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp3-product-4.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 13 -->
+                <div class="latest-product" id="fourth-cp" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp4-product-1.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 14 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp4-product-2.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 15 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp4-product-3.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 16 -->
+                <div class="latest-product" data-aos="zoom-in-down">
+                    <div class="cart-image">
+                        <img src="images/cp4-product-4.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= upto section here ============== -->
+        <section class="upto" id="upto">
+            <div class="upto-left" data-aos="fade-right">
+                <div class="left-text">
+                    <span>limited offer</span>
+                    <h3>Upto 40% Off</h3>
+                    <button>
+                        Shop Now <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="left-img">
+                    <img src="images/header.png" alt="shoes image" />
+                </div>
+            </div>
+
+            <div class="upto-right" data-aos="fade-left">
+                <div class="right-text">
+                    <span>limited offer</span>
+                    <h3>Upto 40% Off</h3>
+                    <button>
+                        Shop Now <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="right-img">
+                    <img src="images/cp-7.png" alt="shoes image" />
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= feature product here ============== -->
+        <section class="latest-products" id="featured">
+            <span class="top-span">What would you order</span>
+            <h2>Featured <span>Products</span></h2>
+            <div class="latest-products-container">
+                <div class="latest-product" id="fifth-cp" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp5-product-1.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 2 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp5-product-2.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 3 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp5-product-3.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 4 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp5-product-4.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 5 -->
+                <div class="latest-product" id="six-cp" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp6-product-1.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 6 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp6-product-2.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 7 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp6-product-3.png" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 8 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp6-product-4.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 9 -->
+                <div class="latest-product" id="seven-cp" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp7-product-1.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 10 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp7-product-2.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 11 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp7-product-3.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 12 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp7-product-4.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 13 -->
+                <div class="latest-product" id="eight-cp" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp8-product-1.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 14 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp8-product-2.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 15 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp8-product-3.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body Featured-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+                <!-- cart 16 -->
+                <div class="latest-product" data-aos="zoom-in-up">
+                    <div class="cart-image">
+                        <img src="images/cp8-product-4.png" alt="cart image" />
+                    </div>
+                    <div class="porduct-body Featured-body">
+                        <h3>Nike Shoes</h3>
+                        <span>$170.00</span>
+                        <div class="cart-footer">
+                            <p>
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>(50)
+                            </p>
+                            <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <i class="fa-regular fa-heart cart-heart"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= new product here ============== -->
+        <section class="new-products" id="new-products">
+            <h2><span>New</span> Products</h2>
+            <div class="new-products-container">
+                <div class="new-product">
+                    <div class="new-product-img" data-aos="fade-right">
+                        <div class="new-img-left">
+                            <img
+                                src="images/cp5-product-1.png"
+                                alt="shoes image"
+                                id="new-left-img"
+                            />
+                            <img
+                                src="images/cp5-product-2.png"
+                                alt="shoes image"
+                                id="new-left-img"
+                            />
+                            <img
+                                src="images/cp5-product-3.png"
+                                alt="shoes image"
+                                id="new-left-img"
+                            />
+                            <img
+                                src="images/cp5-product-4.png"
+                                alt="shoes image"
+                                id="new-left-img"
+                            />
+                        </div>
+                        <div class="new-img-right">
+                            <img src="images/cp-5.png" alt="shoes image" />
+                        </div>
+                    </div>
+                    <div class="new-product-text" data-aos="fade-left">
+                        <h3>New Nike Airmac Shoes</h3>
+                        <p>
+                            <i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Minus, atque. Sunt eius quam sed ullam natus
+                            doloribus eaque ab et.
+                        </p>
+                        <span
+                            >$90.00 <sub><del>$120.00</del></sub></span
+                        >
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="new-product">
+                    <div class="new-product-img" data-aos="fade-right">
+                        <div class="new-img-left2">
+                            <img
+                                src="images/cp7-product-1.png"
+                                alt="shoes image"
+                                id="new-left-img2"
+                            />
+                            <img
+                                src="images/cp7-product-2.png"
+                                alt="shoes image"
+                                id="new-left-img2"
+                            />
+                            <img
+                                src="images/cp7-product-3.png"
+                                alt="shoes image"
+                                id="new-left-img2"
+                            />
+                            <img
+                                src="images/cp7-product-4.png"
+                                alt="shoes image"
+                                id="new-left-img2"
+                            />
+                        </div>
+                        <div class="new-img-right2">
+                            <img src="images/cp-7.png" alt="shoes image" />
+                        </div>
+                    </div>
+                    <div class="new-product-text" data-aos="fade-left">
+                        <h3>New Nike Airmac Shoes</h3>
+                        <p id="another-new-i">
+                            <i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Minus, atque. Sunt eius quam sed ullam natus
+                            doloribus eaque ab et.
+                        </p>
+                        <span
+                            >$100.00 <sub><del>$150.00</del></sub></span
+                        >
+                        <button id="another-new-button">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="new-product">
+                    <div class="new-product-img" data-aos="fade-right">
+                        <div class="new-img-left3">
+                            <img
+                                src="images/cp8-product-1.png"
+                                alt="shoes image"
+                                id="new-left-img3"
+                            />
+                            <img
+                                src="images/cp8-product-2.png"
+                                alt="shoes image"
+                                id="new-left-img3"
+                            />
+                            <img
+                                src="images/cp8-product-3.png"
+                                alt="shoes image"
+                                id="new-left-img3"
+                            />
+                            <img
+                                src="images/cp8-product-4.png"
+                                alt="shoes image"
+                                id="new-left-img3"
+                            />
+                        </div>
+                        <div class="new-img-right3">
+                            <img src="images/cp-8.png" alt="shoes image" />
+                        </div>
+                    </div>
+                    <div class="new-product-text" data-aos="fade-left">
+                        <h3>New Nike Airmac Shoes</h3>
+                        <p id="another-new-i-1">
+                            <i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i
+                            ><i class="fa-solid fa-star"></i>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Minus, atque. Sunt eius quam sed ullam natus
+                            doloribus eaque ab et.
+                        </p>
+                        <span
+                            >$100.00 <sub><del>$150.00</del></sub></span
+                        >
+                        <button id="another-new-button-1">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= review section here ============== -->
+        <section class="review" id="review">
+            <h2>Our Clients <span>Say's</span></h2>
+            <div class="review-container">
+                <div class="profile" data-aos="fade-right">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <h3>Awesome Products</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Quasi temporibus dolorem quod vel veritatis autem
+                        minus reprehenderit rerum necessitatibus, cum
+                        repudiandae a? Dolorum, iste eaque doloribus impedit
+                        totam natus earum velit distinctio consectetur.
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-regular fa-star-half-stroke"></i>
+                    </p>
+                    <div class="profile-footer">
+                        <img
+                            src="images/profile-1.avif"
+                            alt="profile picture"
+                        />
+                        <h4>Angel Jhohi</h4>
+                    </div>
+                </div>
+                <div class="profile" data-aos="fade-left">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <h3>Awesome Products</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Quasi temporibus dolorem quod vel veritatis autem
+                        minus reprehenderit rerum necessitatibus, cum
+                        repudiandae a? Dolorum, iste eaque doloribus impedit
+                        totam natus earum velit distinctio consectetur.
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-regular fa-star-half-stroke"></i>
+                    </p>
+                    <div class="profile-footer">
+                        <img
+                            src="images/profile-2.avif"
+                            alt="profile picture"
+                        />
+                        <h4>Jhon Jenson</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= contact section here ============== -->
+        <section class="contact" id="contact">
+            <h2>Contact <span>Us</span></h2>
+            <div class="contact-container">
+                <div class="contact-img" data-aos="fade-right">
+                    <img src="images/contact.png" alt="contact image" />
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form action="#">
+                        <h3>Get In Touch</h3>
+                        <div class="first-input">
+                            <input type="text" placeholder="Your Name" />
+                            <input type="email" placeholder="Your Email" />
+                        </div>
+                        <div class="second-input">
+                            <input type="number" placeholder="Your Number" />
+                            <input type="text" placeholder="Your Subject" />
+                        </div>
+                        <textarea
+                            name="textaria"
+                            id="textaria"
+                            placeholder="Your Message"
+                        ></textarea>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= footer section here ============== -->
+        <footer>
+            <div class="footer-container">
+                <div class="about-us">
+                    <h3>About Us</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Sapiente, dicta porro. ligendi ipsum qui est modi.
+                    </p>
+                </div>
+                <div class="services">
+                    <h3>Our Services</h3>
+                    <a href="#">Discount</a>
+                    <a href="#">Refund Policy</a>
+                    <a href="#">Shipping Mode</a>
+                </div>
+                <div class="quick-links">
+                    <h3>Quick Links</h3>
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">Features</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="social-media">
+                    <h3>Social Media</h3>
+                    <div class="face">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </div>
+                    <div class="face">
+                        <i class="fa-brands fa-twitter"></i>
+                        <span>Twitter</span>
+                    </div>
+                    <div class="face">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span>
+                    </div>
+                    <div class="face">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>Linkedin</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ============= copyright section here ============== -->
+        <section class="copyright">
+            <p>&copy; Copyright @ 2024 By Masum</p>
+        </section>
+
+        <script src="script.js"></script>
+        <!-- aos animation link -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <!-- <script>
+            AOS.init({
+                offset: 150,
+                duration: 1000,
+            });
+        </script> -->
+    </body>
+</html>
